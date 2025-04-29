@@ -1,4 +1,4 @@
-﻿namespace SecondLevel
+﻿namespace levels.Second
 {
     public class DoublyNode
     {
@@ -55,7 +55,7 @@
             Console.WriteLine();
         }
 
-        public void MoveEvenToQueue(ThirdLevel.VectorQueue queue)
+        public void MoveEvenToQueue(Third.VectorQueue queue)
         {
             var current = head;
             while (current != null)

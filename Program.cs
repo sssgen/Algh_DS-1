@@ -1,7 +1,6 @@
-﻿using System;
-using FirstLevel;
-using SecondLevel;
-using ThirdLevel;
+﻿using levels.First;
+using levels.Second;
+using levels.Third;
 
 class Program
 {
@@ -10,7 +9,7 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         Console.WriteLine("--- Перший рівень ---");
-        var firstQueue = new FirstLevel.VectorQueue(10);
+        var firstQueue = new levels.First.VectorQueue(10);
 
         Console.WriteLine("Додавання елементів 5, 8, 2 до черги...");
         firstQueue.Enqueue(5);
@@ -38,7 +37,7 @@ class Program
 
         Console.WriteLine("\n--- Третій рівень ---");
         Console.WriteLine("Створення нової черги для парних чисел...");
-        var thirdQueue = new ThirdLevel.VectorQueue(10);
+        var thirdQueue = new levels.Third.VectorQueue(10);
 
         Console.WriteLine("Переміщення парних чисел із списку до черги...");
         list.MoveEvenToQueue(thirdQueue);

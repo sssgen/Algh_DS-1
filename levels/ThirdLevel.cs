@@ -1,4 +1,4 @@
-﻿namespace ThirdLevel
+﻿namespace levels.Third
 {
     public class VectorQueue
     {

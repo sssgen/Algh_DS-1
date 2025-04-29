@@ -1,4 +1,4 @@
-﻿namespace FirstLevel
+﻿namespace levels.First
 {
     public class VectorQueue
     {
